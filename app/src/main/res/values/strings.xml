@@ -3,4 +3,9 @@
     <string name="entrar">Entrar</string>
     <string name="text_cadastro">Ainda não possui uma conta? Clique Aqui </string>
     <string name="title_cadastro">Cadastre-se</string>
+    <string name="historico">Histórico</string>
+    <string name="RelatorioGeral">Relatório Geral</string>
+    <string name="Cadastro">Cadastro</string>
+    <string name="Adicionar">Adicionar</string>
+    <string name="TelaPerfil">Perfil</string>
 </resources>
