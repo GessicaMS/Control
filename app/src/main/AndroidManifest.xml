@@ -15,10 +15,10 @@
             android:name=".Cliente"
             android:exported="false" />
         <activity
-            android:name=".Relatorio_geral"
+            android:name=".RelatorioGeral"
             android:exported="false" />
         <activity
-            android:name=".historico"
+            android:name=".Historico"
             android:exported="false" />
         <activity
             android:name=".TelaPerfil"
