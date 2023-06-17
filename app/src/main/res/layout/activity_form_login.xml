@@ -31,7 +31,7 @@
         style="@style/ContainerComponents"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/logo" />
+        app:layout_constraintTop_toBottomOf="@id/logo"/>
 
     <EditText
         android:id="@+id/edit_email"
@@ -72,8 +72,7 @@
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/containerComponents"
-        />
+        app:layout_constraintTop_toBottomOf="@id/containerComponents" />
 
     <TextView
         android:id="@+id/text_tela_cadastro"
@@ -88,7 +87,6 @@
         app:layout_constraintTop_toBottomOf="@id/progressbar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

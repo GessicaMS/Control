@@ -18,7 +18,7 @@ import com.google.firebase.firestore.FirebaseFirestoreException;
 
 public class TelaPerfil extends AppCompatActivity {
 
-    private TextView nomeUsuario,emailUsuario;
+    private TextView nomeUsuario,emailUsuario, configuracoes;
     private Button bt_deslogar;
     FirebaseFirestore database = FirebaseFirestore.getInstance();
     String usuarioID;
@@ -38,6 +38,14 @@ public class TelaPerfil extends AppCompatActivity {
                 Intent intent = new Intent(TelaPerfil.this,FormLogin.class);
                 startActivity(intent);
                 finish();
+            }
+        });
+
+        configuracoes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TelaPerfil.this, Configuracoes.class);
+                startActivity(intent);
             }
         });
     }
@@ -65,5 +73,6 @@ public class TelaPerfil extends AppCompatActivity {
         nomeUsuario = findViewById(R.id.textNomeUsuario);
         emailUsuario = findViewById(R.id.textEmailUsuario);
         bt_deslogar = findViewById(R.id.bt_deslogar);
+        configuracoes = findViewById(R.id.configuracoes);
     }
 }

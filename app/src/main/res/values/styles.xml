@@ -2,10 +2,16 @@
 <resources>
 
     <style name="ContainerComponents">
-        <item name="android:layout_width"> match_parent</item>
-        <item name="android:layout_height"> 250dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250dp</item>
         <item name="android:background">@drawable/container_components</item>
         <item name="android:layout_margin">20dp </item>
+    </style>
+
+    <style name="Title_Components">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">@drawable/container_titles</item>
     </style>
 
     <style name="Edit_Text">
@@ -34,4 +40,14 @@
         <item name="android:background">@drawable/button</item>
     </style>
 
+    <style name="Save_Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">180dp</item>
+        <item name="android:layout_marginRight">180dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/save_button</item>
+        </style>
 </resources>

@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="transparente10">#94FFFFFF</color>
     <color name="transparente0">#12FFFFFF</color>
+    <color name="roxo_escuro">#232946</color>
+    <color name="roxo">#3F497D</color>
 </resources>
