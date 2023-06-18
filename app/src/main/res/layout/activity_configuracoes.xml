@@ -128,7 +128,7 @@
         app:layout_constraintTop_toTopOf="@id/containerComponents2"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/excluir_button"
+        android:id="@+id/excluirContaButton"
         style="@style/Save_Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -139,8 +139,6 @@
         android:fontFamily="@font/roboto_black"
         android:textSize="20sp"
         android:drawableLeft="@drawable/ic_delete"/>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
